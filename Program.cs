@@ -39,22 +39,32 @@ namespace COMP003A.Assignment6
 
                         string selection = Console.ReadLine();
 
-                        string(selection)
+                        switch (selection)
                     {
                         case "1":
+                            book1.MarkCompleted();
+                            Console.WriteLine("Updated Item 1.");
                         break;
+                        
                         case "2":
+                            book2.MarkCompleted();
+                            Console.WriteLine("Updated Item 2.");
                         break;
+                        
                         case "3":
+                            book3.MarkCompleted();
+                            Console.WriteLine("Updated Item 3.");
                         break;
                     }
-                    
+                        break;
+                    case "3":
+                        running = false;
+                        Console.WriteLine("Program ended.");
+                        break;
                 }
                         
                         
             }
-        }
-
         }
     }
 }
