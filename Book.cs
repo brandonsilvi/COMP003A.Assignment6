@@ -1,10 +1,10 @@
 using System;
 
 namespace COMP003A.Assignment6;
-
+//this class models books and the information related to them such as title and page count. 
 public class Book //class to track books by user
-{
-    //fields for the book
+{ 
+    
     public string Title;
     public int Pages;
     public bool Completed;
@@ -24,7 +24,7 @@ public class Book //class to track books by user
     //next a public void to update completion status.
     public void MarkCompleted()
     {
-        Completed = true; //works since you can complete a book not the other way around.
+        Completed = true; 
     }
 
 }

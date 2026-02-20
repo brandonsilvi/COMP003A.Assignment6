@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //This program allows the user to track the completion of books stored within the program
 
 namespace COMP003A.Assignment6
 {
